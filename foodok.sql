@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS cajero(
 rut int(9) NOT NULL,
 nombres varchar(30) NOT NULL,
 apellidos varchar(30) NOT NULL,
-contraseña varchar(30) 	NOT NULL,
+contrasena varchar(30) 	NOT NULL,
 celular int(9) 	NOT NULL,
 PRIMARY KEY(rut)
 );
